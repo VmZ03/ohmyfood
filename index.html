@@ -21,14 +21,33 @@
     <title>oh my food</title>
   </head>
 
-  <header>
-    <h1>ohmyfood</h1>
-    <p class="location">
-      <i class="fa-sharp fa-solid fa-location-dot"></i>Paris, Belleville
-    </p>
-  </header>
-
   <body>
+    <!--Loading spinner-->
+
+    <div class="loader-container">
+      <div class="loader">
+        <svg
+          viewBox="0 0 120 120"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle class="load one" cx="60" cy="60" r="40" />
+          <circle class="load two" cx="60" cy="60" r="40" />
+          <g>
+            <circle class="point one" cx="45" cy="70" r="5" />
+            <circle class="point two" cx="60" cy="70" r="5" />
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <header>
+      <h1>ohmyfood</h1>
+      <p class="location">
+        <i class="fa-sharp fa-solid fa-location-dot"></i>Paris, Belleville
+      </p>
+    </header>
+
     <section id="reserved">
       <h2>Réservez le menu qui vous convient</h2>
       <p>Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
