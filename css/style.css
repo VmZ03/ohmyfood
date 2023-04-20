@@ -315,7 +315,6 @@ header .location i {
 #restaurant .restaurant--box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 30px;
 }
 
 .carterestaurant {
@@ -330,6 +329,10 @@ header .location i {
   text-decoration: none;
   color: black;
   transition: 0.2s;
+}
+
+.padding {
+  padding-bottom: 30px;
 }
 
 .carterestaurant .restaurant--box--img {
@@ -441,5 +444,11 @@ footer ul li a i {
     justify-content: flex-end;
     align-items: flex-end;
     margin: 20px -20px -64px 0;
+  }
+
+  #restaurant .restaurant--box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(250px, 1fr));
+    gap: 70px;
   }
 }
