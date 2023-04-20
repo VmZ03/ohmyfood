@@ -117,47 +117,6 @@ svg {
   animation-delay: 0.2s;
 }
 
-.point {
-  -webkit-animation: bounce 1s infinite ease-in-out;
-  animation: bounce 1s infinite ease-in-out;
-}
-
-.point.one {
-  fill: #ff79da;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.point.two {
-  fill: #9356dc;
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
-}
-
-@-webkit-keyframes bounce {
-  0%,
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  50% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-}
-
-@keyframes bounce {
-  0%,
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  50% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-}
-
 @-webkit-keyframes load {
   0% {
     stroke-dashoffset: 570;
@@ -211,6 +170,7 @@ header .location {
   background-color: #eaeaea;
   height: 40px;
   margin: 0;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.15);
 }
 header .location i {
   margin-right: 10px;
